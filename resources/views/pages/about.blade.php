@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.master', ['title' => 'About'])
 
 @section('content')
     <div class="col-sm-8 mx-auto">
@@ -8,7 +8,7 @@
                         <p class="alert alert-warning">
                         <strong><i><img src="../resources/icons/exclamation-triangle-fill.svg" alt="" width="32" height="32" title="Bootstrap"></i> This app has been built for learning purpose</strong>         
                         </p>
-                        <p>Voici le lien du <a href="#" class="">code source du projet</a></p>
+                        <p>Voici le lien du <a href="https://github.com/pandoras1505/laracarte" class="">code source du projet</a></p>
                 </div>
 
         <hr>
