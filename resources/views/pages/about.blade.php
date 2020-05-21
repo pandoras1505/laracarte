@@ -6,7 +6,7 @@
             <p>Laracarte est un clone de <a href="https://laramap.com" target="_blank">Laramap.com</a> </p>
                 <div class="row col-md-9">
                         <p class="alert alert-warning">
-                        <strong><i><img src="../resources/icons/exclamation-triangle-fill.svg" alt="" width="32" height="32" title="Bootstrap"></i> This app has been built for learning purpose</strong>         
+                        <strong><i><img src="../resources/icons/exclamation-triangle-fill.svg" alt="" width="15" height="25" title="Bootstrap"></i> This app has been built for learning purpose</strong>         
                         </p>
                         <p>Voici le lien du <a href="https://github.com/pandoras1505/laracarte" class="">code source du projet</a></p>
                 </div>

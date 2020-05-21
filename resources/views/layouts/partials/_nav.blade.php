@@ -1,19 +1,19 @@
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="{{ route('root_path') }}">Laracarte</a>
+        <a class="navbar-brand" href="{{ route('home') }}">Laracarte</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
       <div class="collapse navbar-collapse" id="navbarsExample03">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="{{ route('root_path') }}">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item {{ set_active_route('home') }}">
+            <a class="nav-link" href="{{ route('home') }}">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="{{ route('about_path') }}">About <span class="sr-only">(current)</span></a>
+          <li class="nav-item {{ set_active_route('about') }}">
+            <a class="nav-link" href="{{ route('about') }}">About <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="#">Artisans <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown">
@@ -27,8 +27,8 @@
               <a class="dropdown-item" href="#">Larachat</a>
             </div>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+          <li class="nav-item {{ set_active_route('contact.create') }}">
+            <a class="nav-link" href="{{ route('contact.create') }}">Contact <span class="sr-only">(current)</span></a>
           </li>
         </ul>
         <ul class="navbar-nav my-md-2">
